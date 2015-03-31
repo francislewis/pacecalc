@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Francis Lewis</title>
+
+  <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div align="center">
+            <h1>Pace Calculator</h1> 
+            by Tom Wang
+        </div>
+<form method="POST">
+<table cellspacing="12" cellpadding="4"  cellspacing=1 border="0" align="center" width="720">
+<!--Title Rows-->
+    <col width="240">
+    <col width="240">
+    <col width="240">
+    <tr class="center">
+        <td><h3>Time</h3></td>
+        <td><h3>Distance</h3></td>
+        <td><h3>Pace</h3></td>
+    </tr>
+    <tr>
+        <td align="center" style="margin-top:none">
+            <span style="word-spacing:12px">hours mins secs</span>
+            <BR>
+            <input type="text" name="hr" size="2" maxlength="2">
+            <input type="text" name="min" size="2" maxlength="2">
+            <input type="text" name="sec" size="2" maxlength="6">
+        </td>
+
+        <td>
+            <input type="text" name="dist" size="7" maxlength="8"> 
+            <select name="distUnit" class="pulldown">
+                <option value="Kilometer">Kilometers</option>
+                <option value="Mile" selected>Miles</option>
+                <option value="Meter">Meters</option>
+            </select>
+        </td>
+
+        <td align="center">
+            <span style="word-spacing:12px">hours mins secs</span>
+            <BR>
+            <input type="text" name="phr" size="2" maxlength="2">
+            <input type="text" name="pmin" size="2" maxlength="2">
+            <input type="text" name="psec" size="2" maxlength="6">
+            <br>
+                per
+            <br>
+            <select name="paceUnit" size="1" class="pulldown">
+                <option value="Kilometer">Kilometer</option>
+                <option value="Mile" selected>Mile</option>
+                <option value="1500M">1500 M</option>
+                <option value="800M">800 M</option>
+                <option value="400M">400 M</option>
+                <option value="200M">200 M</option>
+                <option value="Meter">Meter</option>
+            </select>
+
+        </td>
+
+    </tr>
+    </td>
+        <td>Enter a distance and pace to calculate time:<BR><INPUT type="button" class="pulldown" onClick="calcTime(this.form)" value="Calculate Time">
+        </td>
+        <td>Enter a time and pace to calculate distance:<BR><INPUT type="button" class="pulldown" onClick="calcDist(this.form)" value="Calculate Distance">
+        </td>
+        <td>Enter a time and distance to calculate pace:<BR><INPUT type="button" class="pulldown" onClick="calcPace(this.form)" value="Calculate Pace">
+        </td>
+    <tr>
+
+    </tr>
+</TABLE>
+</FORM>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
