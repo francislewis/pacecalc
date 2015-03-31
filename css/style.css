@@ -10,6 +10,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+   @font-face {
+     font-family: myFirstFont;
+     src: url(fonts/cnalight.woff);
+   }
+
+
 html,
 button,
 input,
