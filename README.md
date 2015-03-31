@@ -1,5 +1,5 @@
 # pacecalc
-A simple pace/time/speed calculator
+A simple pace/time/speed calculator.
 
 The page is online at [www.francislewis.me/pacecalc](http://www.francislewis.me/pacecalc).
 
