@@ -11,7 +11,7 @@
    ========================================================================== */
 
    @font-face {
-     font-family: myFirstFont;
+     font-family: cna;
      src: url(fonts/cnalight.woff);
    }
 
@@ -27,6 +27,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: cna;
 }
 
 /*
